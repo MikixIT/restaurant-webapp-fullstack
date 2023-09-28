@@ -22,9 +22,9 @@ const Menu = () => {
          )}
 
          <div>
-          {links.map(item=>(
-          <Link href={item.url} key={item.id}> {item.title} </Link>
-            ))}
+          {/* {links.map(item=>(
+          // <Link href={item.url} key={item.id}> {item.title} </Link>
+            ))} */}
          </div>
     </div>
   );
